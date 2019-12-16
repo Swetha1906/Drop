@@ -14,24 +14,9 @@ public class Down {
 	System.setProperty("webdriver.chrome.driver", "C:\\workspace\\Drop\\driver\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.get("http://toolsqa.com/automation-practice-form/");
-	WebElement com = driver.findElement(By.id("selenium_commands"));
-	Select s = new Select(com);
-	s.selectByVisibleText("Wait Commands");
-	s.selectByIndex(2);
-	List<WebElement> op = s. getOptions();
-	for(int i=1; i< op.size(); i++) {
-		WebElement x = op.get(i);
-		String text = x.getText();
-		System.out.println(text);
-	}
 		
-	
-		
-	
-	
-	
-	}
-	}
+}
+}
 
 
 
